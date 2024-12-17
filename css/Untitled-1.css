@@ -1,0 +1,211 @@
+/* Style du header */
+header {
+    background-color: white; /* Fond blanc */
+    color: #ff7eb3;
+    text-align: center;
+    font-family: 'Pacifico',cursive;
+    font-size: 24px;
+}
+
+/* Logo dans le header */
+header img {
+    max-width: 198px;;
+    height: auto;
+    position: absolute;
+    left: -9px;
+    top: 20px;
+}
+
+/* Navigation du header */
+nav {
+    position: relative; /* Position relative pour le menu */
+    z-index: 1; /* Met le menu au-dessus du logo */
+    margin-top: 60px; /* Ajustez cette valeur pour l'espacement */
+    font-family: 'Pacifico',cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px; /* Espacement entre les éléments du menu */
+}
+
+nav ul li a {
+    color: #ff7eb3; /* Couleur du texte en rose */
+    text-decoration: none;
+    font-size: 1.2em; /* Taille de police augmentée */
+    padding: 10px 15px; /* Espacement autour des liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition douce */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.1); /* Fond semi-transparent au survol */
+    color: #d5006d; /* Couleur du texte au survol (rose plus foncé) */
+}
+
+#hero {
+    background-image: url('/images/weedingcake.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: 'Pacifico',cursive;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff7eb3;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Pacifico',cursive;
+}
+
+.btn:hover {
+    background-color: #ff6347;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-container {
+    display: flex; /* Utilise flexbox pour disposer les éléments horizontalement */
+    justify-content: space-between; /* Ajoute de l'espace entre les éléments */
+    align-items: stretch; /* Étire les éléments pour qu'ils aient la même hauteur */
+    max-width: 1200px; /* Limite la largeur de la section */
+    margin: 0 auto; /* Centre la section */
+}
+
+.about-text {
+    flex: 2; /* Prend autant de place que l'image */
+    padding-right: 20px; /* Ajoute un espace entre le texte et l'image */
+    background-color: #f0e7ea;    padding: 20px; /* Ajoute un peu de padding autour du texte pour l'espacer du fond */
+    border-radius: 8px; /* Arrondit les bords du fond */
+    margin-right: -54px; /* Espace entre le texte et l'image */
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 3rem;
+    color: #333;
+    line-height: 1.6; /* Améliore la lisibilité */
+    margin-right: 47px;
+  margin-left: 47px;
+}
+
+.about-img {
+    flex: 1; /* L'image prendra la même taille que le texte */
+    margin-left: 0px;
+}
+
+.about-img img {
+    width: 60%; /* L'image prend toute la largeur de son conteneur */
+    height: 100%; /* Garder la proportion de l'image */
+    border-radius: 8px; /* Arrondir les coins de l'image */
+}
+#gâteaux {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+#gâteaux p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}#galerie-gateaux {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#galerie-gateaux h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Conteneur des images */
+.images-gateaux {
+    display: flex; /* Alignement horizontal des images */
+    justify-content: flex-start; /* Aligne les images au début */
+    align-items: center; /* Centre verticalement les images */
+    gap: 20px; /* Espace entre les images */
+    overflow-x: auto; /* Défilement horizontal */
+    scroll-behavior: smooth; /* Défilement fluide */
+    padding: 20px 0;
+    white-space: nowrap; /* Évite que les images passent à la ligne */
+    max-width: 90%; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+}
+
+/* Style pour chaque image */
+.image-gateau {
+    flex-shrink: 0; /* Empêche les images de rétrécir */
+    width: 250px; /* Largeur de chaque image */
+    height: 250px; /* Hauteur de chaque image */
+    text-align: center;
+}
+
+.image-gateau img {
+    width: 100%; /* Adapte l'image à la largeur du conteneur */
+    height: 100%; /* Adapte l'image à la hauteur du conteneur */
+    object-fit: cover; /* Coupe l'image pour qu'elle rentre parfaitement */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#instagram {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#instagram img {
+    width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#instagram img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#instagram h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #f0e7ea;
+    color: black;
+    margin-top: 0px;
+}

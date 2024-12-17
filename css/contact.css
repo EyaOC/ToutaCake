@@ -1,0 +1,99 @@
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 20px;
+    background-color: #f0e7ea;    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Ajouter flexbox */
+    flex-direction: column; /* Aligner les éléments verticalement */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #ff7eb3;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centrer le contenu */
+    width: 100%; /* Assurer que le contenu occupe toute la largeur */
+}
+
+.contact-form,
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px 47px 10px 183px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 88%;  /* Pour que les champs prennent toute la largeur disponible */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    background-color: #ff7eb3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #ff6c6e;
+}
+
+.contact-info h2 {
+    color: #ff9c9e;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact-info a {
+    color: #ff7eb3;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+#Envoyer {
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    margin-top: 20px; /* Espacement au-dessus, ajustez selon vos besoins */
+}

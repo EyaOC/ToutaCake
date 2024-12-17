@@ -1,0 +1,67 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond rose clair pour la page */
+.about-container-apropos {
+    background-color: #f0e7ea; /* Rose clair */
+    width: 80%; /* Vous pouvez ajuster cette valeur selon la largeur souhaitée */
+    max-width: 1200px; /* Limite la largeur maximale du container */
+    margin: 0 auto; /* Centrer le container horizontalement */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Section principale */
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section h1 {
+    color: #e6007d; /* Une couleur rose vif pour le titre */
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;line-height: 1.6em;
+    font-size: 16px;
+}
+
+/* Contenu avec image et texte */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 10px;
+    align-content: center;
+}
+
+.text-container h2 {
+    color: #e6007d;
+}
+
+.text-container p {
+    color: #333;
+    line-height: 1.6em;
+    font-size: 16px;
+}
