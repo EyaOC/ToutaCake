@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 #hero {
-    background-image: url('/images/weedingcake.png');
+    background-image: url('images/weedingcake.png');
     background-size: cover;
     background-position: center;
     color: white;
