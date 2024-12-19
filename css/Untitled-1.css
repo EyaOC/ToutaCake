@@ -181,21 +181,28 @@ nav ul li a:hover {
     margin: 0 auto; /* Centre le conteneur horizontalement */
 }
 
-/* Style pour chaque image */
 .image-gateau {
     flex-shrink: 0; /* Empêche les images de rétrécir */
     width: 250px; /* Largeur de chaque image */
     height: 250px; /* Hauteur de chaque image */
-    text-align: center;
+    overflow: hidden; /* Cache les parties de l'image qui dépassent */
+    border-radius: 10px; /* Coins arrondis */
+    transition: transform 0.3s ease-in-out; /* Animation fluide */
 }
 
 .image-gateau img {
     width: 100%; /* Adapte l'image à la largeur du conteneur */
     height: 100%; /* Adapte l'image à la hauteur du conteneur */
     object-fit: cover; /* Coupe l'image pour qu'elle rentre parfaitement */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s ease-in-out; /* Animation fluide */
 }
+
+.image-gateau:hover img {
+    transform: scale(1.1); /* Agrandit légèrement l'image */
+}
+
 
 #instagram {
     text-align: center;

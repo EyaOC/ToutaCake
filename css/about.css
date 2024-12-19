@@ -12,7 +12,7 @@ body {
     width: 80%; /* Vous pouvez ajuster cette valeur selon la largeur souhaitée */
     max-width: 1200px; /* Limite la largeur maximale du container */
     margin: 0 auto; /* Centrer le container horizontalement */
-    padding: 20px;
+    margin-bottom: 15px;
 }
 
 /* Section principale */
@@ -28,7 +28,7 @@ body {
 .about-section p {
     font-size: 1.2rem;
     color: #333;line-height: 1.6em;
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 
 /* Contenu avec image et texte */
@@ -62,5 +62,5 @@ body {
 .text-container p {
     color: #333;
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 1.5rem;
 }
