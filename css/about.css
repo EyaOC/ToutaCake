@@ -64,3 +64,20 @@ body {
     line-height: 1.6em;
     font-size: 1.5rem;
 }
+/* Version mobile : l'image se place entre les deux blocs de texte */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* L'image et les textes se placent en colonne */
+        align-items: center; /* Centrer le contenu */
+    }
+
+    .image-container {
+        order: 1; /* Mettre l'image entre les deux blocs */
+        margin-top: 20px; /* Un peu de marge en haut pour l'espacement */
+    }
+
+    .text-container {
+        order: 2; /* Le texte vient après l'image */
+        margin-top: 20px; /* Marge au dessus pour séparer les éléments */
+    }
+}

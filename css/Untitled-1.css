@@ -108,16 +108,17 @@ nav ul li a:hover {
     display: flex; /* Utilise flexbox pour disposer les éléments horizontalement */
     justify-content: space-between; /* Ajoute de l'espace entre les éléments */
     align-items: stretch; /* Étire les éléments pour qu'ils aient la même hauteur */
-    max-width: 1200px; /* Limite la largeur de la section */
+    /* Limite la largeur de la section */
     margin: 0 auto; /* Centre la section */
 }
 
 .about-text {
-    flex: 2; /* Prend autant de place que l'image */
+    flex: 2; /* Prend autant de place que l'image */ 
     padding-right: 20px; /* Ajoute un espace entre le texte et l'image */
     background-color: #f0e7ea;    padding: 20px; /* Ajoute un peu de padding autour du texte pour l'espacer du fond */
     border-radius: 8px; /* Arrondit les bords du fond */
     margin-right: -54px; /* Espace entre le texte et l'image */
+    margin-left: 4%;
 }
 
 .about-text h2 {
@@ -231,4 +232,58 @@ footer {
     background-color: #f0e7ea;
     color: black;
     margin-top: 0px;
+}
+
+/*Styles pour les écrans de téléphone */
+@media (max-width: 768px) {
+    header {
+        font-size: 20px; /* Réduire la taille de la police */
+    }
+
+    header img {
+        max-width: 150px; /* Ajuster la taille du logo */
+        margin: -43px 0px 0px -27px;
+    }
+
+    .about-container {
+        flex-direction: column; /* Empiler les éléments verticalement */
+        align-items: center; /* Centrer les éléments */
+    }
+
+    .about-text {
+        margin-right: 0; /* Annuler l'espace entre le texte et l'image */
+        margin-bottom: 20px; /* Ajouter un espace en bas du texte */
+        padding: 15px; /* Réduire le padding */
+        margin: 0;
+    }
+    .about-text p{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .about-img {
+        width: 80%; /* L'image prend 80% de la largeur */
+        margin-left: 0; /* Annuler l'espacement à gauche */
+    }
+
+    .about-img img {
+        width: 100%; /* L'image prend toute la largeur de son conteneur */
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem; /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .hero-content p {
+        font-size: 1.2rem; /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Réduire la taille du bouton pour les petits écrans */
+    }
+    #gâteaux p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
 }
