@@ -35,7 +35,6 @@
 .contact-info {
     flex: 1;
     min-width: 300px;
-    padding: 10px 47px 10px 183px;
 }
 
 .contact-form label {
@@ -98,4 +97,11 @@ footer {
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
     margin-top: 20px; /* Espacement au-dessus, ajustez selon vos besoins */
+}
+/* Version mobile  */
+
+@media (max-width: 768px) {
+.contact-form{
+    max-width: 100%;
+}
 }

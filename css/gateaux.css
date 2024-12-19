@@ -180,4 +180,11 @@ body {
 .contact-button:hover {
     background-color: #ff6c6e; /* Couleur plus foncée au survol */
 }
-  
+/* Version mobile  */
+
+@media (max-width: 768px) {
+
+.gâteau h3 {
+  font-size: 14px;
+}
+}

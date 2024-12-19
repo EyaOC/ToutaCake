@@ -304,8 +304,11 @@ footer {
         line-height: 1.2;
     }
     .social-icons {
-        top: 10px; /* Décalage plus petit pour la version mobile */
+        top: -13px; /* Décalage plus petit pour la version mobile */
         right: 10px;
     }
+    .fa-brands, .fab {
+        font-size: 18px;
 
+}
 }
