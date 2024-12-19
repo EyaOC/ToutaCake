@@ -233,6 +233,25 @@ footer {
     color: black;
     margin-top: 0px;
 }
+/* Conteneur pour les icônes sociales */
+.social-icons {
+    position: absolute;
+    right: 20px; /* Ajustez la distance depuis le bord droit */
+    top: 14%; /* Ajustez la position verticale */
+    display: flex;
+    gap: 15px; /* Espace entre les icônes */
+}
+
+.social-icons a {
+    color: #ff7eb3; /* Couleur rose */
+    font-size: 2rem; /* Taille des icônes */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #d5006d; /* Couleur rose plus foncé au survol */
+}
 
 /*Styles pour les écrans de téléphone */
 @media (max-width: 768px) {
@@ -254,7 +273,6 @@ footer {
         margin-right: 0; /* Annuler l'espace entre le texte et l'image */
         margin-bottom: 20px; /* Ajouter un espace en bas du texte */
         padding: 15px; /* Réduire le padding */
-        margin: 0;
     }
     .about-text p{
         font-size: 1rem;
@@ -284,6 +302,10 @@ footer {
     #gâteaux p {
         font-size: 1rem;
         line-height: 1.2;
+    }
+    .social-icons {
+        top: 10px; /* Décalage plus petit pour la version mobile */
+        right: 10px;
     }
 
 }
