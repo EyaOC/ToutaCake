@@ -47,9 +47,25 @@ nav ul li a:hover {
     background-color: rgba(255, 0, 0, 0.1); /* Fond semi-transparent au survol */
     color: #d5006d; /* Couleur du texte au survol (rose plus foncé) */
 }
+#hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+#hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place l'image en arrière-plan */
+}
 
 #hero {
-    background-image: url('images/weedingcake.png');
     background-size: cover;
     background-position: center;
     color: white;

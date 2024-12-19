@@ -10,6 +10,7 @@
     flex-direction: column; /* Aligner les éléments verticalement */
     justify-content: center; /* Centrer verticalement */
     align-items: center; /* Centrer horizontalement */
+    height: 110vh; /* Utiliser toute la hauteur de la page */
 }
 
 .contact-container h1 {

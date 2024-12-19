@@ -13,7 +13,6 @@ body {
     max-width: 1200px; /* Limite la largeur maximale du container */
     margin: 0 auto; /* Centrer le container horizontalement */
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 /* Section principale */
